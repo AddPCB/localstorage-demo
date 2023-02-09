@@ -1,0 +1,14 @@
+body {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  text-align:center;
+  background-color: cadetblue;
+  color: white;
+  font-family: monospace;
+}
+.dark {
+  background-color: midnightblue;
+}
