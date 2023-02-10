@@ -26,4 +26,4 @@ setTheme();
 // Create a new class called dark to invert background colour
 document.styleSheets[0].insertRule(".dark { background-color: rgba(255, 255, 255, 0.5); filter: invert(1); }", 0);
 // hook setTheme to the first button on the page
-document.body.button.setAttribute("onClick", "setTheme()");
+document.body.button[0].setAttribute("onClick", "setTheme()");
