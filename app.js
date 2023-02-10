@@ -5,7 +5,7 @@ function setTheme() {
   // change theme from dark to light  and vice versa, depending what it is currently set to
 
   if (theme === "light") {
-    localStorage.setItem("theme", "dark")
+    localStorage.setItem("theme", "dark");
 // apply the dark class
     document.body.classList.add("dark");
   } 
