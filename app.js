@@ -24,6 +24,6 @@ function getTheme() {
 // populate 'theme' by running the 'else' path of setTheme 
 setTheme();
 // Create a new class called dark to invert background colour
-document.styleSheets[0].insertRule(".dark { background-color: background-color: invert(100%); }", 0);
+document.styleSheets[0].insertRule(".dark { background-color: invert(100%); }", 0);
 // hook setTheme to the first button on the page
 document.querySelector("button").setAttribute("onClick", "setTheme()");
